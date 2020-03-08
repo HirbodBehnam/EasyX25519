@@ -17,7 +17,6 @@ func NewX25519() (*KeyPair, error) {
 	// read more: https://cr.yp.to/ecdh.html
 	// create a new key structure
 	key := &KeyPair{
-		PublicKey: make([]byte, 32), // both public and private keys are 32 bytes
 		SecretKey: make([]byte, 32), // both public and private keys are 32 bytes
 	}
 	// randomly fill secret key with crypto/rand
