@@ -1,4 +1,6 @@
 # Easy X25519
+![Go](https://github.com/HirbodBehnam/EasyX25519/workflows/Go/badge.svg)
+
 A simple way to do x25519 key agreements.
 ## Why this?
 * Easy to use
