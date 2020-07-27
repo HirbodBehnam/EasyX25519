@@ -16,6 +16,8 @@ This library has three functions.
 1. `NewX25519`: Creates a fresh key pair for x25519 key exchange algorithm.
 2. `NewX25519FromPrivateKey`: Creates a key pair from private key
 3. `(*KeyPair) GenerateSharedSecret`: Pass the other recipient's public key to this command to generate a shared secret
+### Documentation
+https://pkg.go.dev/github.com/HirbodBehnam/EasyX25519
 ### Example
 Here is a small example from test file:
 ```go
